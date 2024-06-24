@@ -65,6 +65,26 @@ See the windows form application code in the repo this readme belongs to.
 
 Question 4:
 
+Unit Tests:
+Test individual methods to ensure they produce the correct output.
+Example: Verify that a single panel is placed correctly on an empty stock sheet.
+  
+Integration Tests:
+Test the optimizer as a whole to ensure all components work together.
+Example: Optimize a list of panels and verify the final arrangement.
+
+Performance Tests:
+Ensure the optimizer performs efficiently for large inputs.
+Example: Test the optimizer with a large number of panels and measure the execution time.
+
+Edge Case Tests:
+Test the optimizer with edge cases to ensure it handles them gracefully.
+Example: Panels that do not fit on the stock sheet, very large panels, or panels with zero width/height.
+
+Visual Verification:
+Visualize the optimized layout to manually verify the arrangement. This application is a good example of this
+Example: Generate a graphical representation of the stock sheet with panels placed on it.
+
 
 
 
